@@ -9,12 +9,12 @@ import (
 )
 
 func Day1() {
-	fmt.Println("Day 1 Part 1:", part1())
-	fmt.Println("Day 1 Part 2:", part2())
+	fmt.Println("Day 1 Part 1:", d1part1())
+	fmt.Println("Day 1 Part 2:", d1part2())
 }
 
-func part1() int {
-	left, right := parseInput()
+func d1part1() int {
+	left, right := d1parseInput()
 
 	sort.Ints(left[:])
 	sort.Ints(right[:])
@@ -32,8 +32,8 @@ func part1() int {
 	return total
 }
 
-func part2() int {
-	left, right := parseInput()
+func d1part2() int {
+	left, right := d1parseInput()
 
 	total := 0
 
@@ -52,7 +52,7 @@ func part2() int {
 	return total
 }
 
-func parseInput() ([1000]int, [1000]int) {
+func d1parseInput() ([1000]int, [1000]int) {
 	fileContent, err := os.ReadFile("./data/day1.txt")
 	if err != nil {
 		fmt.Println(err)
