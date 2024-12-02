@@ -9,8 +9,8 @@ import (
 
 func Test2() {
 	fmt.Println("Day 2 Test")
-	fmt.Println("Part 1:", d2part1("./data/test2.txt"))
-	fmt.Println("Part 2:", d2part2("./data/test2.txt"))
+	fmt.Println("Part 1:", d2part1("./data/test2.txt"), "| Expected: 2")
+	fmt.Println("Part 2:", d2part2("./data/test2.txt"), "| Expected: 4")
 	fmt.Println()
 }
 
