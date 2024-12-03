@@ -62,12 +62,16 @@ func d3part2(filename string) int {
 	for _, expr := range exprs {
 		if expr == "do()" {
 			sum = true
-		} else if expr == "don't()" {
+			continue
+		}
+
+		if expr == "don't()" {
 			sum = false
-		} else {
-			if sum {
-				result += mul(expr)
-			}
+			continue
+		}
+
+		if sum {
+			result += mul(expr)
 		}
 	}
 
