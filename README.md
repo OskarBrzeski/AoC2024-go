@@ -15,6 +15,9 @@ git clone https://github.com/OskarBrzeski/AoC2024-go.git
 cd AoC2024-go
 ```
 
+Make sure you have your own puzzle inputs in the `data` directory.
+These files should take the form: `day{x}.txt` (e.g. `day1.txt`).
+
 Run all of the solutions
 ```bash
 go run .
