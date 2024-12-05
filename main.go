@@ -14,4 +14,7 @@ func main() {
 
 	solutions.Test4()
 	solutions.Day4()
+
+	solutions.Test5()
+	solutions.Day5()
 }
