@@ -1,0 +1,38 @@
+package solutions
+
+import (
+	"fmt"
+	"os"
+	"strings"
+)
+
+func TestX() {
+	fmt.Println("Day X Test")
+	fmt.Println("Part 1:", dXpart1("./data/testX.txt"), "| Expected: ")
+	fmt.Println("Part 2:", dXpart2("./data/testX.txt"), "| Expected: ")
+	fmt.Println()
+}
+
+func DayX() {
+	fmt.Println("Day X")
+	fmt.Println("Part 1:", dXpart1("./data/dayX.txt"))
+	fmt.Println("Part 2:", dXpart2("./data/dayX.txt"))
+	fmt.Println()
+}
+
+func dXparseInput(filepath string) {
+	fileContent, err := os.ReadFile(filepath)
+	if err != nil {
+		fmt.Println(err)
+	}
+}
+
+func dXpart1(filename string) int {
+	count := 0
+	return count
+}
+
+func dXpart2(filename string) int {
+	count := 0
+	return count
+}
