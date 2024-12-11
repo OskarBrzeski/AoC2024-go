@@ -29,4 +29,7 @@ func main() {
 
 	solutions.Test9()
 	solutions.Day9()
+
+	solutions.Test10()
+	solutions.Day10()
 }
