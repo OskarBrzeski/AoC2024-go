@@ -32,4 +32,7 @@ func main() {
 
 	solutions.Test10()
 	solutions.Day10()
+
+	solutions.Test11()
+	solutions.Day11()
 }
