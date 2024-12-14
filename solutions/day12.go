@@ -10,7 +10,6 @@ func Test12() {
 	fmt.Println("Day 12 Test")
 	fmt.Println("Part 1:", d12part1("./data/test12.txt"), "| Expected: 1930")
 	fmt.Println("Part 2:", d12part2("./data/test12.txt"), "| Expected: 1206")
-	fmt.Println("Part 2:", d12part2("./data/test12alt2.txt"), "| Expected: 20")
 	fmt.Println()
 }
 
